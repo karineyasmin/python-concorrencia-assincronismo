@@ -20,7 +20,7 @@ def main():
     print(f"Saídas: {saidas}")
 
     pool.close()  # diz que não tem mais funções para mapear
-    pool.join()  # execeuta tudo ate o fim
+    pool.join()  # executa tudo até o fim
 
 
 if __name__ == "__main__":
