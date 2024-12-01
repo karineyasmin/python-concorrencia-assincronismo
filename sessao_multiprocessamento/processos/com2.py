@@ -3,6 +3,7 @@ import multiprocessing
 
 # Comunicação entre processos usando queue
 
+
 def ping(queue):
     queue.put("Geek")
 
