@@ -20,8 +20,3 @@ def computar(fim, inicio=1):
 
 if __name__ == "__main__":
     main()
-
-"""
-Terminou em 24.07 segundos
-Terminou em 21.74 segundos
-"""

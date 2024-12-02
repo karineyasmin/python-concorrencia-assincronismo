@@ -6,8 +6,8 @@ import threading
 
 def main():
     inicio = datetime.datetime.now()
-
     qtd_cores = multiprocessing.cpu_count()
+    print(f"Realizando o processo com {qtd_cores} cores")
 
     threads = []
     for n in range(1, qtd_cores + 1):
@@ -41,8 +41,3 @@ def computar(fim, inicio=1):
 
 if __name__ == "__main__":
     main()
-
-"""
-Terminou em 24.07 segundos
-Terminou em 21.74 segundos
-"""
